@@ -76,7 +76,19 @@ $faqs_array = [
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <ul class="nav">
+            <li class="nav-li">GOOGLE</li>
+            <li class="nav-li"><strong>Privacy e Termini</strong></li>
+        </ul>
+        <ul class="nav">
+            <li class="nav-li">Introduzione</li>
+            <li class="nav-li">Norme sulla Privacy</li>
+            <li class="nav-li">Termini di servizio</li>
+            <li class="nav-li">Tecnologie</li>
+            <li class="nav-li">Domande Frequenti</li>
+        </ul>
+    </header>
     <main class = "container" >
           <?php foreach ($faqs_array as $faqs) { ?>
                 <section>
